@@ -71,7 +71,7 @@ if streamlit.button('Get Fruit List'):
      streamlit.text(back_from_function)
      #my_data_rows=get_fruit_load_list()
      #my_cnx.close()
-     streamlit.dataframe(my_data_rows)
+streamlit.dataframe(my_data_row)
 #streamlit.text("what fruit would you like to add?")
 #streamlit.text(my_data_row)
 add_my_fruit=streamlit.text_input('what fruit would you like to add?','jackfruit')
